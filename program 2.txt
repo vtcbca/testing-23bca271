@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	clrscr();
+	cout<<"enter number for a= ";
+	cin>>a;
+	cout<<"enter number for b= ";
+	cin>>b;
+	cout<<"\nAddition of a & b= "<<a+b;
+	cout<<"\nSubstraction of a & b= "<<a-b;
+	cout<<"\nMultiplication of a & b= "<<a*b;
+	cout<<"\nDivision of a & b= "<<a/b;
+	getch();
+}
